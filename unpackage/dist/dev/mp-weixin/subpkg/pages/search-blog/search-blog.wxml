@@ -1,0 +1,1 @@
+<view><view class="search-blog-container _div"><view><view class="search-bar-box"><my-search vue-id="4cf5d627-1" is-show-input="{{true}}" bind:__l="__l"></my-search></view></view></view></view>
