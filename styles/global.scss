@@ -3,7 +3,6 @@
  */
 
 // 最多展示两行
-
 .line-clamp-2 {
   overflow: hidden;
   text-overflow: ellipsis;
@@ -11,4 +10,20 @@
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
 	word-break: break-all;
+}
+
+// 单行文本
+.line-clamp {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+// 卡片视图
+.card {
+	border: 1px solid #f9f9f9;
+	border-radius: 5px;
+	margin: 12px;
+	padding: 12px;
+	box-shadow: 2px 2px 5px 1px rgba(143, 143, 143, .1);
 }

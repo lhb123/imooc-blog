@@ -235,7 +235,7 @@ s<template>
 		overflow: hidden;
 		position: relative;
 		flex: 1;
-		justify-content: center;
+		justify-content: start;
 		flex-direction: row;
 		align-items: center;
 		height: $uni-searchbar-height;
@@ -256,7 +256,7 @@ s<template>
 
 	.uni-searchbar__box-search-input {
 		flex: 1;
-		font-size: 14px;
+		font-size: 28rpx;
 		color: #333;
 	}
 
@@ -270,15 +270,16 @@ s<template>
 	}
 
 	.uni-searchbar__text-placeholder {
-		font-size: 14px;
+		font-size: 28rpx;
 		color: #B3B3B3;
-		margin-left: 5px;
+		// margin-left: 5px;
+		margin-bottom: 1px;
 	}
 
 	.uni-searchbar__cancel {
 		padding-left: 10px;
 		line-height: $uni-searchbar-height;
-		font-size: 14px;
+		font-size: 28rpx;
 		color: #333333;
 		/* #ifdef H5 */
 		cursor: pointer;

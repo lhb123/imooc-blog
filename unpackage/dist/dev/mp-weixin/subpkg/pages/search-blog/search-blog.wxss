@@ -14,8 +14,10 @@
 /* 垂直间距 */
 /* 透明度 */
 /* 文章场景相关 */
-.search-blog-container .search-bar-box {
+.search-blog-container {
   background-color: #ffffff;
+}
+.search-blog-container .search-bar-box {
   padding: 10px;
   position: -webkit-sticky;
   position: sticky;

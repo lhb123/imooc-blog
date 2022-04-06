@@ -106,16 +106,16 @@ var components
 try {
   components = {
     mySearch: function() {
-      return __webpack_require__.e(/*! import() | components/my-search/my-search */ "components/my-search/my-search").then(__webpack_require__.bind(null, /*! @/components/my-search/my-search.vue */ 45))
+      return __webpack_require__.e(/*! import() | components/my-search/my-search */ "components/my-search/my-search").then(__webpack_require__.bind(null, /*! @/components/my-search/my-search.vue */ 48))
     },
     myTabs: function() {
-      return __webpack_require__.e(/*! import() | components/my-tabs/my-tabs */ "components/my-tabs/my-tabs").then(__webpack_require__.bind(null, /*! @/components/my-tabs/my-tabs.vue */ 52))
+      return __webpack_require__.e(/*! import() | components/my-tabs/my-tabs */ "components/my-tabs/my-tabs").then(__webpack_require__.bind(null, /*! @/components/my-tabs/my-tabs.vue */ 55))
     },
     uniLoadMore: function() {
-      return Promise.all(/*! import() | uni_modules/uni-load-more/components/uni-load-more/uni-load-more */[__webpack_require__.e("common/vendor"), __webpack_require__.e("uni_modules/uni-load-more/components/uni-load-more/uni-load-more")]).then(__webpack_require__.bind(null, /*! @/uni_modules/uni-load-more/components/uni-load-more/uni-load-more.vue */ 59))
+      return Promise.all(/*! import() | uni_modules/uni-load-more/components/uni-load-more/uni-load-more */[__webpack_require__.e("common/vendor"), __webpack_require__.e("uni_modules/uni-load-more/components/uni-load-more/uni-load-more")]).then(__webpack_require__.bind(null, /*! @/uni_modules/uni-load-more/components/uni-load-more/uni-load-more.vue */ 62))
     },
     hotListItem: function() {
-      return __webpack_require__.e(/*! import() | components/hot-list-item/hot-list-item */ "components/hot-list-item/hot-list-item").then(__webpack_require__.bind(null, /*! @/components/hot-list-item/hot-list-item.vue */ 70))
+      return __webpack_require__.e(/*! import() | components/hot-list-item/hot-list-item */ "components/hot-list-item/hot-list-item").then(__webpack_require__.bind(null, /*! @/components/hot-list-item/hot-list-item.vue */ 73))
     }
   }
 } catch (e) {

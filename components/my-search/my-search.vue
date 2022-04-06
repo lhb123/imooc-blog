@@ -70,12 +70,27 @@
 			};
 		},
 		methods: {
-			onSearch () {},
-			onFocus () {},
-			onBlur () {},
-			onClear () {},
-			onCancel () {},
-			onInput () {}
+			onSearch () {
+				this.$emit('search', this.value)
+			},
+			onFocus () {
+				this.$emit('focus', this.value)
+			},
+			onBlur () {
+				this.$emit('blur', this.value)
+			},
+			onClear () {
+				this.$emit('clear', this.value)
+			},
+			onCancel () {
+				this.$emit('cancel', this.value)
+			},
+			onInput (val) {
+				// 通知父组件
+				// 手动实现v-model必须传入名称叫value的值，emit一个叫input是事件，值不可以更改
+				// 满足该条件组件外可以直接用v-model传值
+				this.$emit('input', val)
+			}
 		}
 	}
 </script>

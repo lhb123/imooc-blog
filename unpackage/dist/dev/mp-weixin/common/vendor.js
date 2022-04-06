@@ -2091,7 +2091,7 @@ uni$1;exports.default = _default;
 
 /***/ }),
 
-/***/ 105:
+/***/ 102:
 /*!************************************************************************************************!*\
   !*** Z:/Project/imooc-blog/uni_modules/uni-search-bar/components/uni-search-bar/i18n/index.js ***!
   \************************************************************************************************/
@@ -2099,9 +2099,9 @@ uni$1;exports.default = _default;
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _en = _interopRequireDefault(__webpack_require__(/*! ./en.json */ 106));
-var _zhHans = _interopRequireDefault(__webpack_require__(/*! ./zh-Hans.json */ 107));
-var _zhHant = _interopRequireDefault(__webpack_require__(/*! ./zh-Hant.json */ 108));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}var _default =
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _en = _interopRequireDefault(__webpack_require__(/*! ./en.json */ 103));
+var _zhHans = _interopRequireDefault(__webpack_require__(/*! ./zh-Hans.json */ 104));
+var _zhHant = _interopRequireDefault(__webpack_require__(/*! ./zh-Hant.json */ 105));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}var _default =
 {
   en: _en.default,
   'zh-Hans': _zhHans.default,
@@ -2109,7 +2109,7 @@ var _zhHant = _interopRequireDefault(__webpack_require__(/*! ./zh-Hant.json */ 1
 
 /***/ }),
 
-/***/ 106:
+/***/ 103:
 /*!***********************************************************************************************!*\
   !*** Z:/Project/imooc-blog/uni_modules/uni-search-bar/components/uni-search-bar/i18n/en.json ***!
   \***********************************************************************************************/
@@ -2120,7 +2120,7 @@ module.exports = JSON.parse("{\"uni-search-bar.cancel\":\"cancel\",\"uni-search-
 
 /***/ }),
 
-/***/ 107:
+/***/ 104:
 /*!****************************************************************************************************!*\
   !*** Z:/Project/imooc-blog/uni_modules/uni-search-bar/components/uni-search-bar/i18n/zh-Hans.json ***!
   \****************************************************************************************************/
@@ -2131,7 +2131,7 @@ module.exports = JSON.parse("{\"uni-search-bar.cancel\":\"cancel\",\"uni-search-
 
 /***/ }),
 
-/***/ 108:
+/***/ 105:
 /*!****************************************************************************************************!*\
   !*** Z:/Project/imooc-blog/uni_modules/uni-search-bar/components/uni-search-bar/i18n/zh-Hant.json ***!
   \****************************************************************************************************/
@@ -2271,7 +2271,7 @@ function normalizeComponent (
 
 /***/ }),
 
-/***/ 116:
+/***/ 113:
 /*!*********************************************************************************!*\
   !*** Z:/Project/imooc-blog/uni_modules/uni-icons/components/uni-icons/icons.js ***!
   \*********************************************************************************/
@@ -3407,6 +3407,86 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
 /***/ }),
 
+/***/ 121:
+/*!***********************************************************************!*\
+  !*** Z:/Project/imooc-blog/static/images sync ^\.\/ranking\-.*\.png$ ***!
+  \***********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var map = {
+	"./ranking-1.png": 122,
+	"./ranking-2.png": 123,
+	"./ranking-3.png": 124,
+	"./ranking-other.png": 125
+};
+
+
+function webpackContext(req) {
+	var id = webpackContextResolve(req);
+	return __webpack_require__(id);
+}
+function webpackContextResolve(req) {
+	if(!__webpack_require__.o(map, req)) {
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	}
+	return map[req];
+}
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = 121;
+
+/***/ }),
+
+/***/ 122:
+/*!*********************************************************!*\
+  !*** Z:/Project/imooc-blog/static/images/ranking-1.png ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAwUlEQVQ4T2NkoBJgBJnzMyiugek/oz2pZv5j/H+Qfd2iBpA+sEH/QxO1/vz5N5WBkcGBaMP+MxxgYWHKZlw9/xrcIBDjd2D8flINYl2/0BFmMdhFowahxsN/hgOjYUQgaY6GESiAnv5n+N/J+I/pMgMjgxcD4/9SlFAjJowYGRhn/v79t5Nz8+L78LwYFG/H8J+hgoGRwRMshtOgoIQdDAz/uRn//+9kWb9oC644+xUUl8XEwFjOwMCwg2XdwnSYOgCbsYQTv+rcCgAAAABJRU5ErkJggg=="
+
+/***/ }),
+
+/***/ 123:
+/*!*********************************************************!*\
+  !*** Z:/Project/imooc-blog/static/images/ranking-2.png ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAwElEQVQ4T+2SPQrCcAzFX/wWb+Id2uqoxxBqQWfRsWsP4FAVT+HgprbeQHB18hC29P+klQoKxRYcmymE5JfwXgR/Cok5D1e3pUKjKJNKTk3Ls+O5BMSt1g0jLAHp5YfxWK9iKiP/+gbFSbDWDkVBDdPvp4uTi0rQlw88lhr9es1SIwJ3kg6FlxqqQ4KzT9XyaES4kcBpm94tHQ43uq4UFiIYvGoZoHCt7ynsKEWnNT7vsjwLVsYEwjmAfcP0rLTvCeyKihMbFdy9AAAAAElFTkSuQmCC"
+
+/***/ }),
+
+/***/ 124:
+/*!*********************************************************!*\
+  !*** Z:/Project/imooc-blog/static/images/ranking-3.png ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAwklEQVQ4T2NkoBJgBJkTM/13AyMzoz2pZv7/+//gkkzWBpA+sEHRM/5rMTH9ncrwn8GBaMMYGQ78+8ecvTSD8RrcIBAjdtaf/aQatDiNxRFmMdhFowahxgMjw4HRMCKQNEfDCBRATxn//+v895/xMgMTkxcjw/9SlFAjJoz+MzDMZGT63bk4lfM+THP8jP92fxn/VjAyMHiCxXAaNOPPDgZGBm5GRobORWksW3DFWdyMv1n/GRnKGRj+71iczpIOUwcApDKEE0Zu4qcAAAAASUVORK5CYII="
+
+/***/ }),
+
+/***/ 125:
+/*!*************************************************************!*\
+  !*** Z:/Project/imooc-blog/static/images/ranking-other.png ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAuElEQVQ4T2NkoBJgBJnz/PnzBkZGRntSzfz///9BSUnJBpA+sEFv377V+v3791QGBgYHEgw7wMrKmi0sLHwNbhCI8eLFi/2kGiQhIeEIsxjsolGD0OPhwGgYEUyao2HEwPCUgYGh8////5eZmJi8/v//X4oWakSF0UyQIRISEvdhml+9emX39+/fCkZGRk+oGHaDXr58uYOBgYH7////IAO24Iqz58+fZzEyMpYzMDDskJCQSIepAwCLWHYTWKTTjwAAAABJRU5ErkJggg=="
+
+/***/ }),
+
 /***/ 13:
 /*!**********************************************!*\
   !*** Z:/Project/imooc-blog/filters/index.js ***!
@@ -4260,12 +4340,18 @@ if (hadRuntime) {
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });exports.getHotTabs = getHotTabs;exports.getHotListFromTabType = getHotListFromTabType;var _request = _interopRequireDefault(__webpack_require__(/*! ../utils/request.js */ 24));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
 
+/**
+                                                                                                                                                                                                                                                                                                                                      * 获取tab
+                                                                                                                                                                                                                                                                                                                                      */
 function getHotTabs() {
   return (0, _request.default)({
     url: '/hot/tabs' });
 
 }
 
+/**
+   * 获取列表
+   */
 function getHotListFromTabType(type) {
   return (0, _request.default)({
     url: '/hot/list',
@@ -10837,6 +10923,36 @@ function resolveLocaleChain(locale) {
 
 /***/ }),
 
+/***/ 45:
+/*!*******************************************!*\
+  !*** Z:/Project/imooc-blog/api/search.js ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.getDefaultText = getDefaultText;exports.getSearchHotList = getSearchHotList;var _request = _interopRequireDefault(__webpack_require__(/*! ../utils/request.js */ 24));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+
+/**
+                                                                                                                                                                                                                                                                                                                                    * 获取默认搜索内容
+                                                                                                                                                                                                                                                                                                                                    */
+function getDefaultText() {
+  return (0, _request.default)({
+    url: '/search/default-text' });
+
+}
+
+/**
+   * 热搜搜索列表
+   */
+function getSearchHotList() {
+  return (0, _request.default)({
+    url: '/search/hot-list' });
+
+}
+
+/***/ }),
+
 /***/ 5:
 /*!****************************************!*\
   !*** Z:/Project/imooc-blog/pages.json ***!
@@ -10848,7 +10964,7 @@ function resolveLocaleChain(locale) {
 
 /***/ }),
 
-/***/ 64:
+/***/ 67:
 /*!**********************************************************************************************!*\
   !*** Z:/Project/imooc-blog/uni_modules/uni-load-more/components/uni-load-more/i18n/index.js ***!
   \**********************************************************************************************/
@@ -10856,9 +10972,9 @@ function resolveLocaleChain(locale) {
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _en = _interopRequireDefault(__webpack_require__(/*! ./en.json */ 65));
-var _zhHans = _interopRequireDefault(__webpack_require__(/*! ./zh-Hans.json */ 66));
-var _zhHant = _interopRequireDefault(__webpack_require__(/*! ./zh-Hant.json */ 67));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}var _default =
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _en = _interopRequireDefault(__webpack_require__(/*! ./en.json */ 68));
+var _zhHans = _interopRequireDefault(__webpack_require__(/*! ./zh-Hans.json */ 69));
+var _zhHant = _interopRequireDefault(__webpack_require__(/*! ./zh-Hant.json */ 70));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}var _default =
 {
   en: _en.default,
   'zh-Hans': _zhHans.default,
@@ -10866,7 +10982,7 @@ var _zhHant = _interopRequireDefault(__webpack_require__(/*! ./zh-Hant.json */ 6
 
 /***/ }),
 
-/***/ 65:
+/***/ 68:
 /*!*********************************************************************************************!*\
   !*** Z:/Project/imooc-blog/uni_modules/uni-load-more/components/uni-load-more/i18n/en.json ***!
   \*********************************************************************************************/
@@ -10877,7 +10993,7 @@ module.exports = JSON.parse("{\"uni-load-more.contentdown\":\"Pull up to show mo
 
 /***/ }),
 
-/***/ 66:
+/***/ 69:
 /*!**************************************************************************************************!*\
   !*** Z:/Project/imooc-blog/uni_modules/uni-load-more/components/uni-load-more/i18n/zh-Hans.json ***!
   \**************************************************************************************************/
@@ -10888,7 +11004,7 @@ module.exports = JSON.parse("{\"uni-load-more.contentdown\":\"上拉显示更多
 
 /***/ }),
 
-/***/ 67:
+/***/ 70:
 /*!**************************************************************************************************!*\
   !*** Z:/Project/imooc-blog/uni_modules/uni-load-more/components/uni-load-more/i18n/zh-Hant.json ***!
   \**************************************************************************************************/
@@ -10896,86 +11012,6 @@ module.exports = JSON.parse("{\"uni-load-more.contentdown\":\"上拉显示更多
 /***/ (function(module) {
 
 module.exports = JSON.parse("{\"uni-load-more.contentdown\":\"上拉顯示更多\",\"uni-load-more.contentrefresh\":\"正在加載...\",\"uni-load-more.contentnomore\":\"沒有更多數據了\"}");
-
-/***/ }),
-
-/***/ 82:
-/*!***********************************************************************!*\
-  !*** Z:/Project/imooc-blog/static/images sync ^\.\/ranking\-.*\.png$ ***!
-  \***********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var map = {
-	"./ranking-1.png": 83,
-	"./ranking-2.png": 84,
-	"./ranking-3.png": 85,
-	"./ranking-other.png": 86
-};
-
-
-function webpackContext(req) {
-	var id = webpackContextResolve(req);
-	return __webpack_require__(id);
-}
-function webpackContextResolve(req) {
-	if(!__webpack_require__.o(map, req)) {
-		var e = new Error("Cannot find module '" + req + "'");
-		e.code = 'MODULE_NOT_FOUND';
-		throw e;
-	}
-	return map[req];
-}
-webpackContext.keys = function webpackContextKeys() {
-	return Object.keys(map);
-};
-webpackContext.resolve = webpackContextResolve;
-module.exports = webpackContext;
-webpackContext.id = 82;
-
-/***/ }),
-
-/***/ 83:
-/*!*********************************************************!*\
-  !*** Z:/Project/imooc-blog/static/images/ranking-1.png ***!
-  \*********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAwUlEQVQ4T2NkoBJgBJnzMyiugek/oz2pZv5j/H+Qfd2iBpA+sEH/QxO1/vz5N5WBkcGBaMP+MxxgYWHKZlw9/xrcIBDjd2D8flINYl2/0BFmMdhFowahxsN/hgOjYUQgaY6GESiAnv5n+N/J+I/pMgMjgxcD4/9SlFAjJowYGRhn/v79t5Nz8+L78LwYFG/H8J+hgoGRwRMshtOgoIQdDAz/uRn//+9kWb9oC644+xUUl8XEwFjOwMCwg2XdwnSYOgCbsYQTv+rcCgAAAABJRU5ErkJggg=="
-
-/***/ }),
-
-/***/ 84:
-/*!*********************************************************!*\
-  !*** Z:/Project/imooc-blog/static/images/ranking-2.png ***!
-  \*********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAwElEQVQ4T+2SPQrCcAzFX/wWb+Id2uqoxxBqQWfRsWsP4FAVT+HgprbeQHB18hC29P+klQoKxRYcmymE5JfwXgR/Cok5D1e3pUKjKJNKTk3Ls+O5BMSt1g0jLAHp5YfxWK9iKiP/+gbFSbDWDkVBDdPvp4uTi0rQlw88lhr9es1SIwJ3kg6FlxqqQ4KzT9XyaES4kcBpm94tHQ43uq4UFiIYvGoZoHCt7ynsKEWnNT7vsjwLVsYEwjmAfcP0rLTvCeyKihMbFdy9AAAAAElFTkSuQmCC"
-
-/***/ }),
-
-/***/ 85:
-/*!*********************************************************!*\
-  !*** Z:/Project/imooc-blog/static/images/ranking-3.png ***!
-  \*********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAwklEQVQ4T2NkoBJgBJkTM/13AyMzoz2pZv7/+//gkkzWBpA+sEHRM/5rMTH9ncrwn8GBaMMYGQ78+8ecvTSD8RrcIBAjdtaf/aQatDiNxRFmMdhFowahxgMjw4HRMCKQNEfDCBRATxn//+v895/xMgMTkxcjw/9SlFAjJoz+MzDMZGT63bk4lfM+THP8jP92fxn/VjAyMHiCxXAaNOPPDgZGBm5GRobORWksW3DFWdyMv1n/GRnKGRj+71iczpIOUwcApDKEE0Zu4qcAAAAASUVORK5CYII="
-
-/***/ }),
-
-/***/ 86:
-/*!*************************************************************!*\
-  !*** Z:/Project/imooc-blog/static/images/ranking-other.png ***!
-  \*************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAuElEQVQ4T2NkoBJgBJnz/PnzBkZGRntSzfz///9BSUnJBpA+sEFv377V+v3791QGBgYHEgw7wMrKmi0sLHwNbhCI8eLFi/2kGiQhIeEIsxjsolGD0OPhwGgYEUyao2HEwPCUgYGh8////5eZmJi8/v//X4oWakSF0UyQIRISEvdhml+9emX39+/fCkZGRk+oGHaDXr58uYOBgYH7////IAO24Iqz58+fZzEyMpYzMDDskJCQSIepAwCLWHYTWKTTjwAAAABJRU5ErkJggg=="
 
 /***/ })
 
